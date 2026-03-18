@@ -10,6 +10,6 @@ router = APIRouter(
 async def root():
     return Response(status_code=status.HTTP_200_OK)
 
-@router.post("/reconexion")
+@router.post("/maestro/reconexion")
 async def maestro_reconexion(model: Annotated[dict, Depends(app_model.maestro_reconexion)]):
     return model

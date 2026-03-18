@@ -1,0 +1,6 @@
+texto,clase_id,descripcion_regla
+Deuda < 35.000,1,Deuda menor a 35k
+El saldo es inferior a 35 mil,1,Deuda menor a 35k
+No pertenece a la ZONA,2,Error de Zona
+Fuera de SCR NORTE,2,Error de Zona
+Petición del cliente,3,Voluntad Cliente
