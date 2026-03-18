@@ -1,0 +1,10 @@
+[project]
+name = "scrc_ms_excluir_lote"
+version = "0.0.1"
+description = "Microservicio para la gestión de exclusion de lote"
+authors = [{name="Dairo Carrasquilla", email="cdairo2204@gmail.com"}]
+requires-python = ">=3.12"
+license = {file = "LICENSE"}
+
+[tool.fastapi]
+entrypoint = "src.main:app"
